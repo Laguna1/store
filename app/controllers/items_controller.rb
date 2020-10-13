@@ -1,5 +1,4 @@
 class ItemsController < ApplicationController
-  before_action :set_item, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!
   
   # GET /items
@@ -13,7 +12,7 @@ class ItemsController < ApplicationController
 
   # GET /items/new
   def new
-    @item = Item.new
+    
   end
 
   # GET /items/1/edit
@@ -22,7 +21,7 @@ class ItemsController < ApplicationController
 
   # POST /items
   def create
-    @item = Item.new(item_params)
+   
     @item.user_id = current_user.id
     if @item.save
       redirect_to @item, notice: 'Item was successfully created.'
@@ -48,9 +47,7 @@ class ItemsController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_item
-      @item = Item.find(params[:id])
-    end
+    
 
     # Only allow a trusted parameter "white list" through.
     def item_params
