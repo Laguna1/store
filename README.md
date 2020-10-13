@@ -16,7 +16,9 @@
 8 Sellers: can view items, create items, as well as update and destroy any items that belong to them
 * Admin: can perform any CRUD operation on any resource
 
-![Screenchot](../images/Screenshot.png)
+![Screenchot](https://rawcdn.githack.com/Laguna1/store/56207a884e55449ba067344c94d3cb067a36b41d/app/assets/images/Screenshot.png)
+![Screenchot](https://rawcdn.githack.com/Laguna1/store/56207a884e55449ba067344c94d3cb067a36b41d/app/assets/images/2Screenshot.png)
+![Screenchot](https://rawcdn.githack.com/Laguna1/store/56207a884e55449ba067344c94d3cb067a36b41d/app/assets/images/3Screenshot.png)
 
 
 
