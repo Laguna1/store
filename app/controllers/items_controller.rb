@@ -1,28 +1,27 @@
+# frozen_string_literal: true
+
 class ItemsController < ApplicationController
   before_action :authenticate_user!
-  
+  load_and_authorize_resource
+
   # GET /items
   def index
     @items = Item.all
   end
 
   # GET /items/1
-  def show
-  end
+  def show; end
 
   # GET /items/new
-  def new
-    
-  end
+  def new; end
 
   # GET /items/1/edit
-  def edit
-  end
+  def edit; end
 
   # POST /items
   def create
-   
     @item.user_id = current_user.id
+
     if @item.save
       redirect_to @item, notice: 'Item was successfully created.'
     else
@@ -46,11 +45,9 @@ class ItemsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    
 
-    # Only allow a trusted parameter "white list" through.
-    def item_params
-      params.require(:item).permit(:name, :description, :price, :user_id)
-    end
+  # Only allow a trusted parameter "white list" through.
+  def item_params
+    params.require(:item).permit(:name, :description, :price, :user_id)
+  end
 end

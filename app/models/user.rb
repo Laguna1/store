@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class User < ApplicationRecord
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
@@ -18,12 +20,10 @@ class User < ApplicationRecord
   end
 
   def seller?
-  role.name == 'Seller'
-end
+    role.name == 'Seller'
+  end
 
-def regular?
-  role.name == 'Regular'
-end
-
-
+  def regular?
+    role.name == 'Regular'
+  end
 end

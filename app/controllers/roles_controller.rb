@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class RolesController < ApplicationController
   before_action :authenticate_user!
   load_and_authorize_resource
-  
+
   # GET /roles
   def index
     @roles = Role.all
@@ -18,17 +20,14 @@ class RolesController < ApplicationController
 
   # GET /roles/new
   def new
-    
+    @role = Role.new
   end
 
   # GET /roles/1/edit
-  def edit
-  end
+  def edit; end
 
   # POST /roles
   def create
-   
-
     if @role.save
       redirect_to @role, notice: 'Role was successfully created.'
     else
@@ -52,10 +51,9 @@ class RolesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    
-    # Only allow a trusted parameter "white list" through.
-    def role_params
-      params.require(:role).permit(:name, :description)
-    end
+
+  # Only allow a trusted parameter "white list" through.
+  def role_params
+    params.require(:role).permit(:name, :description)
+  end
 end
