@@ -11,13 +11,12 @@
 
 - Uers can have a maximum of one role. The permissions for each of these users will break down as follows:
 
-Unregistered users are redirected to the sign up page
-Registered users: can view items
-Sellers: can view items, create items, as well as update and destroy any items that belong to them
-Admin: can perform any CRUD operation on any resource
+* Unregistered users are redirected to the sign up page
+* Registered users: can view items
+8 Sellers: can view items, create items, as well as update and destroy any items that belong to them
+* Admin: can perform any CRUD operation on any resource
 
-
-
+![Screenchot](../images/Screenshot.png)
 
 
 
