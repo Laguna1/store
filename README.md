@@ -18,7 +18,7 @@
 
 ![Screenchot](https://rawcdn.githack.com/Laguna1/store/56207a884e55449ba067344c94d3cb067a36b41d/app/assets/images/Screenshot.png)
 ![Screenchot](https://rawcdn.githack.com/Laguna1/store/56207a884e55449ba067344c94d3cb067a36b41d/app/assets/images/2Screenshot.png)
-![Screenchot](https://rawcdn.githack.com/Laguna1/store/68a73209219ace0a58604761c1d02c1e945cd852/app/assets/images/3Screenshot..png)
+![Screenchot](https://rawcdn.githack.com/Laguna1/store/9cfed1fb793fede8d0182cec59f85b9fdab2cc86/app/assets/images/3Screenshot%20.png)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
@@ -42,3 +42,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+https://rawcdn.githack.com/L
