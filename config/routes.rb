@@ -15,6 +15,6 @@ Rails.application.routes.draw do
   authenticated :user do
     root to: 'items#index', as: :authenticated_root
   end
-  root to: 'items#index'
+  root to: 'welcome#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
