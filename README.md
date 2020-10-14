@@ -16,9 +16,9 @@
 8 Sellers: can view items, create items, as well as update and destroy any items that belong to them
 * Admin: can perform any CRUD operation on any resource
 
-![Screenchot](/home/oksana/store/app/assets/images/Screenshot.png)
-![Screenchot](/home/oksana/store/app/assets/images/2Screenshot.png)
-![Screenchot](/home/oksana/store/app/assets/images/3Screenshot.png)
+![Screenchot](/app/assets/images/Screenshot.png?raw=true)
+![Screenchot](/app/assets/images/2Screenshot.png?raw=true)
+![Screenchot](/app/assets/images/3Screenshot.png?raw=true)
 
 
 Respect @jameshibbard for his explanation!
@@ -29,7 +29,11 @@ This gem also gives a possibility to create additional dashboards.
 Visit http://localhost:3000/admin to see new Admin dashboard in action.
 The "Back to application" button returns to the 'Store'-app.
 
-![Admin Dashboard Users Tab](./home/oksana/store/AdminDashboarsUsers..png)
+![Admin Dashboard Users Tab](./AdminDashboarsUsers..png?raw=true)
+
+https://medium.com/world-of-mind/rails-howto-build-an-adminland-with-the-administrate-gem-bb643ff64b0f
+https://administrate-prototype.herokuapp.com/getting_started
+https://administrate-prototype.herokuapp.com/
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
