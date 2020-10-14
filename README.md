@@ -16,7 +16,9 @@
 8 Sellers: can view items, create items, as well as update and destroy any items that belong to them
 * Admin: can perform any CRUD operation on any resource
 
-
+![Screenchot](https://rawcdn.githack.com/Laguna1/store/56207a884e55449ba067344c94d3cb067a36b41d/app/assets/images/Screenshot.png)
+![Screenchot](https://rawcdn.githack.com/Laguna1/store/56207a884e55449ba067344c94d3cb067a36b41d/app/assets/images/2Screenshot.png)
+![Screenchot](https://rawcdn.githack.com/Laguna1/store/68a73209219ace0a58604761c1d02c1e945cd852/app/assets/images/3Screenshot..png)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
